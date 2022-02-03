@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ITMD-361 Lab 3 Form Processing Script</title>
+</head>
+
+<body>
+	<h1>Volunteer Form</h1>
+	<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+		<fieldset>
+			<legend>My Info:</legend>
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="fname"><br>
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="lname"><br>
+			<label for="phone">Phone number:</label><br>
+			<input type="text" id="phone" number="phone"><br>
+			<label for="email">Email Address:</label><br>
+			<input type="text" id="email" email="email">
+			<br>
+			<p>Gender:<p>
+			<input type="radio" id="gender" name="gender" value="Male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="gender" name="gender" value="Male">
+			<label for="male">Male</label><br>
+			<br>
+			<label for="cars">Age:</label>
+			<select id="age" name="age">
+				<option value="under18">under 18</option>
+				<option value="18-24">18 - 24</option>
+				<option value="25-34">25 - 34</option>
+				<option value="35-44">35 - 44</option>
+				<option value="45-54">45 - 54</option>
+				<option value="55-64">55 - 64</option>
+				<option value="65andover">65 and over</option>
+			</select>
+		</fieldset>
+	<br>
+	<br>
+	<br>
+	<h2>My Availability</h2>
+		<fieldset>
+			<legend>Days Available:</legend>
+			<input type="checkbox" id="day1" name="day1" value="Sunday">
+			<label for="day1"> Sunday</label><br>
+			<input type="checkbox" id="day2" name="day2" value="Monday">
+			<label for="day2"> Monday</label><br>
+			<input type="checkbox" id="day3" name="day3" value="Tuesday">
+			<label for="day3"> Tuesday</label><br>
+			<input type="checkbox" id="day4" name="day4" value="Wednesday">
+			<label for="day4"> Wednesday</label><br>
+			<input type="checkbox" id="day5" name="day5" value="Thursday">
+			<label for="day5"> Thursday</label><br>
+			<input type="checkbox" id="day6" name="day6" value="Friday">
+			<label for="day6"> Friday</label><br>
+			<input type="checkbox" id="day7" name="day7" value="Saturday">
+			<label for="day7"> Saturday</label>
+			<br>
+			<br>
+			<br>
+			<p>Any comment?</p>
+			<textarea name="message" style="width:200px; height:300px;">Write in here</textarea>
+		</fieldset>
+		<input type="submit" value="Send me">
+	</form>
+</body>
+</html>
+	
+	
